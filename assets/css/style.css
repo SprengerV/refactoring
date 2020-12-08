@@ -13,6 +13,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added button selector to replace ul and li tags */
 button {
     margin-left: 25px;
     background-color: #2a607c;
@@ -21,10 +22,20 @@ button {
     border: none;
 }
 
+/* Added footer selector for semantics */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Consolidated classes surrounding header and h1 */
 h1 {
-    font-family: 'Trebucheta MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     font-size: 48px;
+    line-height: 48px;
     padding: 20px;
     display: inline-block;
 }
@@ -33,19 +44,21 @@ h1 .seo {
     color: #d9dcd6
 }
 
+/* Added header selector for semantics */
 header {
     width: 100%;
-    height: 100px;
     position: relative;
     background-color: #2a607c;
 }
 
+/* Added main selector for semantics */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Added nav selector for semantics */
 nav {
     display: inline-block;
     position: absolute;
@@ -58,6 +71,7 @@ p {
     font-size: 16px;
 }
 
+/* Changed here class to an id as it is only used in one instance */
 #hero {
     height: 800px;
     width: 100%;
@@ -188,13 +202,6 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 
 .footer h2 {
